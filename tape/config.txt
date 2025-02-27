@@ -1,0 +1,26 @@
+# default reel
+reel: other
+# track artist coordinates
+artistx: 98.0
+artisty: 65.0
+# artist format string
+artistformat: $ARTIST
+# track title coordinates
+titlex: 98.0
+titley: 100.0
+# track format string
+titleformat: $TITLE
+# album coordinates, hidden
+albumx: -1.0
+albumy: -1.0
+# album format string
+albumformat: $ALBUM
+# reel upper left coordinate
+reelx: 78
+reely: 55
+# max line width in pixels, title, album and artist will be cut after that value
+titlewidth: 600.0
+# zero-padded minutes and zero-padded seconds separated by colon
+durationformat: %1$02d:%2$02d
+# text color, RGB
+textcolor: #FFFFFF

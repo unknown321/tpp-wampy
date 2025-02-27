@@ -1,0 +1,13 @@
+@ tape/config.txt
+@=tape/tpp/config.txt
+@ (comment above this line)
+@ tape/tape.pkm
+@=tape/tpp/tape.pkm
+@ (comment above this line)
+@ reel/atlas.pkm
+@=reel/tpp/atlas.pkm
+@ (comment above this line)
+@ reel/atlas.txt
+@=reel/tpp/atlas.txt
+@ (comment above this line)
+@ (zip file comment below this line)
