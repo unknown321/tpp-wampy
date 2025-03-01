@@ -5,9 +5,11 @@ bgcolor="#123646"
 cmd="convert -size 4096x4096 xc:${bgcolor}"
 
 # Loop from 0 to 355 degrees in 5-degree steps (72 iterations)
-for ((angle=0; angle<=355; angle+=5)); do
+angleMax=355
+angleStep=5
+for ((angle=0; angle<=${angleMax}; angle+=${angleStep})); do
   # Calculate row (0 to 11) and column (0 to 5)
-  index=$((angle / 5))           # 0 to 71
+  index=$((angle / ${angleStep}))           # 0 to 71
   col=$((index % 6))             # Column: 0 to 5
   row=$((index / 6))             # Row: 0 to 11
   x=$((col * 632))               # X: 0, 632, 1264, 1896, 2528, 3160
